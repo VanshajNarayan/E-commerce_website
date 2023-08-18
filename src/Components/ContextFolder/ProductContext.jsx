@@ -7,10 +7,11 @@ export const AppDispatch = createContext();
 
 const getLocalCartData = () => {
   let localCartData = localStorage.getItem("VanshajCart");
-  if (localCartData == []) {
+  let arrayLocalStorageData = JSON.parse(localCartData)
+  if (arrayLocalStorageData == []) {
     return [];
   } else {
-    return JSON.parse(localCartData);
+    return arrayLocalStorageData;
   };
 };
 
