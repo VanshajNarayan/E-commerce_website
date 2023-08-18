@@ -1,0 +1,26 @@
+.trusted_container{
+  background-color: #f1f2f6;
+  padding: 2rem;
+}
+
+.trusted_container .trusted_box .trusted_para{
+  text-align: center;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+
+.trusted_container .trusted_box .trusted_companies{
+  max-width: 70%;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 2rem;
+}
+
+.trusted_container .trusted_box .trusted_companies .trustedCompanies_logo{
+  font-size: 5rem;
+  color: #4b4b4b;
+}

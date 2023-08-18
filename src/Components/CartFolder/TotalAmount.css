@@ -1,0 +1,32 @@
+.TotalAmount_MainContainer{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.TotalAmount_container{
+  margin: 5rem;
+  width: fit-content;
+  background-color: #ffffff2c;
+  padding: 0.7rem;
+}
+
+.TotalAmount_container p{
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.TotalAmount_container p span{
+  color: #4b4747;
+  font-size: 0.7rem;
+  font-weight: 600;
+  margin-right: 1rem;
+}
+
+.TotalAmount_container .border_line_amount{
+  border: 1px solid #817a7a;
+  margin: 1.5rem 0;
+}

@@ -1,0 +1,24 @@
+.InputRangePriceFilter_container{
+  /* border: 2px solid red; */
+  margin-top: 3rem;
+}
+
+.InputRangePriceFilter_container h3{
+  letter-spacing: 0.06rem;
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-bottom: 0.7rem;
+}
+
+.InputRangePriceFilter_container p{
+  letter-spacing: 0.06rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 0.6rem;
+  color: #454242;
+}
+
+.InputRangePriceFilter_container input{
+  width: 80%;
+  cursor: pointer;
+}

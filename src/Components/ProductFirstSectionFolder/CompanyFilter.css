@@ -1,0 +1,61 @@
+.Company_Filter_container{
+  /* border: 2px solid red; */
+  margin-top: 3rem;
+  width: 80%;
+  position: relative;
+}
+
+.Company_Filter_container h3{
+  letter-spacing: 0.06rem;
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.Company_Filter_container .company_input_box{
+  position: relative;
+  cursor: pointer;
+}
+
+.Company_Filter_container .company_input_box .company_icon{
+  position: absolute;
+  font-size: 2.3rem;
+  top: 14%;
+  right: 3%;
+}
+
+.Company_Filter_container .companyInput{
+  width: 100%;
+  border: none;
+  padding: 0.7rem;
+  background-color: #f1f2f6;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  letter-spacing: 0.07rem;
+  color: #454242;
+}
+
+.Company_Filter_container .companys_Option{
+  background-color: #fff;
+  color: #000;
+  letter-spacing: 0.07rem;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+.Company_Filter_container .companys_Option p{
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  font-weight: 450;
+  padding: 0.5rem;
+}
+
+.Company_Filter_container .companys_Option p:hover{
+  background-color: #0000ffa1;
+  color: #fff;
+}

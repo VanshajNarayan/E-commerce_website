@@ -1,0 +1,33 @@
+.ColorFilter_container{
+  /* border: 2px solid green; */
+  margin-top: 3rem;
+}
+
+.ColorFilter_container h3{
+  letter-spacing: 0.06rem;
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-bottom: 0.7rem;
+}
+
+.ColorFilter_container .color_div{
+  /* border: 2px solid red;  */
+  display: flex;
+  align-items: center;
+}
+
+.ColorFilter_container .color_div .colors_box{
+  width: 1.9rem;
+  height: 1.9rem;
+  border-radius: 50%;
+  margin: 0.4rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.ColorFilter_container .color_div .colors_box .tickIcon{
+  position: absolute;
+  left: 25%;
+  top: 26%;
+  color: #fff;
+}

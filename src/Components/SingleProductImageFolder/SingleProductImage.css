@@ -1,0 +1,10 @@
+.img{
+  width: 10rem;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.main_image img{
+  width: 21rem;
+  margin-left: 2rem;
+}

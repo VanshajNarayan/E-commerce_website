@@ -1,0 +1,42 @@
+.feature_container{
+  /* border: 2px solid red; */
+  margin: 0 auto;
+  /* width: 100rem; */
+}
+
+.feature_container .feature_box{
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.feature_container .products_items{
+  display: flex;
+  justify-content: space-between;
+  max-width: 100rem;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+
+.feature_container p{
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #747d8c;
+}
+
+.feature_container h3{
+  text-transform: capitalize;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+@media(max-width:800px){
+  .feature_container .products_items{
+    display: flex;
+    flex-direction: column;
+    max-width: 100rem;
+    gap: 3rem;
+  }
+}

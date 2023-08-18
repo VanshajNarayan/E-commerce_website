@@ -1,0 +1,55 @@
+.nav_lists{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.nav_lists li a{
+  text-decoration: none;
+  margin: 1rem;
+  color: black;
+}
+
+.nav_lists li a:hover{
+  color: #bab4b4;
+  transition: all 0.2s linear;
+}
+
+.nav_lists li .Navbar_btn{
+  background-color: #8a2be2;
+  color: #fff;
+  padding: 0.7rem 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 1rem;
+  text-transform: uppercase;
+}
+
+.nav_lists .cart_icons {
+  position: relative;
+  width: 5rem;
+  font-size: 2.4rem;
+  color: #000;
+}
+
+.nav_lists .cart_icons .cart_count{
+  font-size: 1.3rem;
+  color: #34c713;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+@media (max-width : 998px){
+  .nav_lists{
+    display: none;
+  }
+}

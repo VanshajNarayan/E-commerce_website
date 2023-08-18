@@ -1,0 +1,84 @@
+.service_box{
+  background-color: #fff;
+  padding: 4rem;
+  margin: 2rem 0;
+}
+
+.service_container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* width: 100rem; */
+  width: 70%;
+  margin: 0 auto;
+}
+
+.service_container .first_Section, .service_container .third_Section{
+  /* border: 2px solid blue; */
+  background-color: azure;
+  width: fit-content;
+  height: fit-content;
+  padding: 2rem;
+}
+
+.service_container .first_Section .delivery_icon, .service_container .third_Section .securePayment_icon{
+  display: block;
+  margin: 1rem auto;
+  font-size: 2rem;
+  color: #8a2be2;
+}
+
+.service_container .first_Section .firstSectionPara, .service_container .third_Section .thirdSectionPara{
+  font-size: 1rem;
+  text-transform: capitalize;
+  margin: 1rem;
+  text-align: center;
+}
+
+.service_container .secondSection{
+  /* border: 2px solid greenyellow; */
+  width: fit-content; 
+  height: fit-content; 
+}
+
+.service_container .secondSection .firstPart_secondSection, .service_container .secondSection .secondPart_secondSection{
+  background-color: azure;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.7rem 2rem;
+  margin: 2.5rem;
+}
+
+.service_container .secondSection .firstPart_secondSection .security_icon, .service_container .secondSection .secondPart_secondSection .moneyReceive_icon {
+  display: block;
+  color: #8a2be2;
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+.service_container .secondSection .firstPart_secondSection .firstPart_secondSection_para, .service_container .secondSection .secondPart_secondSection .secondPart_secondSection_para{
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+
+@media(max-width : 750px){
+  .service_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media(max-width : 537px){
+  .service_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+}

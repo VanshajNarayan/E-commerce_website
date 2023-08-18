@@ -1,0 +1,42 @@
+.error_maincontainer{
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.error_container{
+  width: 70%;
+  text-align: center;
+  margin-top: 7rem;
+}
+
+.error_maincontainer .error_container h2{
+  font-size: 7rem;
+  font-weight: 700;
+}
+
+.error_maincontainer .error_container h5{
+  font-size: 4rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #2f3542;
+}
+
+.error_maincontainer .error_container p{
+  margin: 1rem 0;
+  color: #747d8c;
+}
+
+.error_maincontainer .error_container button{
+  padding: 1rem 2.5rem;
+  color: #fff;
+  background-color: #8a2be2;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  margin: 1rem 0;
+  cursor: pointer;
+}
+
+
+

@@ -1,0 +1,52 @@
+.responsiveNavbar{
+  background-color: rgba(245, 245, 245, 0.956);
+  list-style: none;
+  font-size: 2rem;
+  font-weight: 700;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+.responsiveNavbar .responsiveLists{
+  list-style: none;
+  text-align: center;
+  margin-top: 10rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  padding: 1rem;
+}
+
+.responsiveNavbar .responsiveLists a{
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  margin: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin-left: 0%;
+}
+
+.responsiveNavbar .responsiveLists a:hover{
+  color: #bab4b4;
+  transition: all 0.2s linear;
+}
+
+.responsiveNavbar .responsiveLists .Navbar_btn{
+  background-color: #8a2be2;
+  color: #fff;
+  padding: 0.7rem 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 1rem;
+  text-transform: uppercase;
+}
+
+@media(min-width : 998px){
+  .responsiveNavbar{
+    display: none;
+  }
+}

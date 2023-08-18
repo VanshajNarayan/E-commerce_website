@@ -1,0 +1,31 @@
+.color_container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 33%;
+}
+
+.color_container .color_title{
+  height: fit-content;
+}
+
+.color_container .color_box{
+  width: 2rem;
+  height: 2rem;
+  border-radius: 3rem;
+  cursor: pointer;
+}
+
+.color_container .color_box .tickIcon{
+  color: #fff;
+  margin-top: 0.4rem;
+  margin-left: 0.4rem;
+  font-size: 1.1rem;
+  font-weight: 900;
+}
+
+@media(max-width : 455px){
+  .color_container{
+    width: 70%;
+  }
+}

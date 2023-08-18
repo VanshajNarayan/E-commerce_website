@@ -1,0 +1,25 @@
+.productFirstSection{
+  /* border: 2px solid red; */
+  height: 100%;
+  padding: 2rem;
+}
+
+.productFirstSection .firstSectionInput{
+  width: 15rem;
+  padding: 0.8rem;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.productFirstSection .clear_button{
+  margin-top: 3rem;
+}
+
+.productFirstSection .clear_button .clearBtn{
+  padding: 1.3rem;
+  background-color: #ff6348;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
